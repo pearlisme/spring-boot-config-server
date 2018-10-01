@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: tracing
+  zipkin:
+    base-url: http://localhost:8085
+ 
+#  sleuth:
+#    enabled: true
+#    opentracing:
+#      enabled: true
+
+#
+#management:
+#  endpoints:
+#    enabled-by-default: true
+
+
+server:
+  port: 8086
+#trace: true
+
+
